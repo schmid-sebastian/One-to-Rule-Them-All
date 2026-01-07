@@ -1,0 +1,11 @@
+# Add project dependencies here, e.g., numpy, torch, pandas.
+pm4py
+pandas
+numpy
+torch==2.5.1
+unsloth==2025.2.4
+unsloth_zoo==2025.2.3
+transformers
+trl==0.14.0
+ipywidgets
+scikit-learn
