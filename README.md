@@ -88,4 +88,4 @@ Detailed results and metrics are reported in the accompanying paper.
 
 ## License
 
-MIT License. See [LICENSE](LICENSE.md) for details.
+MIT License. See [LICENSE](LICENSE) for details.
