@@ -1,11 +1,11 @@
-# One to Rule Them All  
-### Large Language Models for Multi-Imperfection Business Process Event Log Repair
+# One to Rule Them All
 
 This repository contains the **software artifact** accompanying the paper:
 
 > **One to Rule Them All: Large Language Models for Multi-Imperfection Business Process Event Log Repair**
 
-The artifact implements a **unified, LLM-based framework** for detecting and repairing **multiple interdependent event log imperfections** in a single repair step.
+The artifact implements a **unified, LLM-based framework** for detecting and repairing **multiple interdependent event 
+log imperfections** in a single repair step.
 
 ---
 
@@ -21,10 +21,12 @@ The artifact implements a **unified, LLM-based framework** for detecting and rep
 
 ## Overview
 
-Business process event logs often suffer from **multiple co-occurring imperfections**, such as missing case identifiers, incorrect timestamps, or distorted activity labels.  
+Business process event logs often suffer from **multiple co-occurring imperfections**, such as missing case 
+identifiers, incorrect timestamps, or distorted activity labels.  
 Existing repair approaches typically address these issues **in isolation**, resulting in complex and fragile toolchains.
 
-This project explores **instruction-following large language models (LLMs)** as a **single, adaptable repair mechanism** capable of:
+This project explores **instruction-following large language models (LLMs)** as a **single, adaptable repair 
+mechanism** capable of:
 
 - Diagnosing multiple imperfection patterns simultaneously  
 - Proposing imperfection-specific mitigation strategies  
@@ -41,7 +43,8 @@ The framework is instantiated as a **Python-based prototype** consisting of:
 - An automated repair routine for imperfect event logs  
 - Evaluation scripts for detection and repair quality  
 
-The implementation is **independent of a specific process domain** and can be adapted to different event log formats and imperfection patterns.
+The implementation is **independent of a specific process domain** and can be adapted to different event log formats 
+and imperfection patterns.
 
 ---
 
@@ -80,7 +83,8 @@ Run the notebooks to reproduce experiments and evaluations, or use the scripts f
 
 ## Evaluation
 
-The artifact is evaluated on eight real-life event logs with multiple imperfection patterns injected simultaneously, following a purely technical evaluation strategy within the Design Science Research paradigm.
+The artifact is evaluated on eight real-life event logs with multiple imperfection patterns injected simultaneously, 
+following a purely technical evaluation strategy within the Design Science Research paradigm.
 
 Detailed results and metrics are reported in the accompanying paper.
 
